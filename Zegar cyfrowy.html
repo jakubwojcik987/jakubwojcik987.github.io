@@ -1,0 +1,62 @@
+<html>
+<head> 
+<meta http-equiv="refresh" charset="UTF-8" content="1">
+<title> Czas </title>
+<style>
+.licznik
+{
+margin:auto;
+display: block;
+margin-top:250px;
+border-style:solid;
+width:300px;
+height:50px;
+font-size:13mm;
+background:	black;
+color:red;
+text-align:center;
+padding: 10px;
+	border: 7px outset;
+}
+
+
+</style>
+</head>
+
+<body style="background:grey;">
+
+
+<p>
+
+<div class="licznik">
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript">
+
+
+
+
+var data = new Date();
+var rok = data.getFullYear();
+var mies = data.getMonth();
+var tyg = data.getDay();
+var dzien = data.getDate();
+var godz = data.getHours();
+var min = data.getMinutes();
+var sec = data.getSeconds();
+if (min < 10)
+    min = '0' + min;
+if (sec < 10)
+	sec = '0' + sec;
+	
+var data_i_czas =
+     godz + ':' + min + ':' + sec;
+	
+document.write (data_i_czas);
+	
+</script>
+</div>
+</div>
+</body>
+</html>
