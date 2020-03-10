@@ -1,0 +1,52 @@
+<!DOCYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+  <title>Pizzeria Margherita</title>
+  <link rel="stylesheet" href="styl6.css">
+  </head>
+  <body>
+ <header>
+ <h2>Najlepsza pizza w mieście <img src="logo.png" height="100"></h2>
+ </header>
+ <section id="l">
+ <p>U naszamówisz pizze z dowozem </p>
+ <a href="logo.png">Nasze logo</a>
+ </section>
+ <section id="s">
+ <h3>Pizzeria Margherita</h3>
+ <p>ul. Botaniczna 4, Zielona Góra</p>
+ </section>
+ <section id="p">
+ <h3>Oferta</h3>
+ <ol>
+ <li>Pizza</li>
+ <li>Lasagne</li>
+ <li>Salatki</li>
+ </ol>
+ <p><a href="Oferta.txt">Pobierz pełną ofertę</a></p>
+ </section>
+ <section id="d">
+ <h3>Oblicz koszt dostawy</h3>
+ <input type="checkbox"> Jestem z Zielonej Góry
+ <p>albo</p>
+ Podaj liczbe kilometró od zielonej góry: <input type="number" id="1k"><br>
+ <input type="button" value="oblicz" onclick="oblicz{}">
+ <p id="wynik"></p>
+ </section>
+ <footer>
+ Strone internetowa opracowal: <b>0000000000</b>
+ </footer>
+ <script>
+ function oblicz() {
+ var k = document.getElementById("1k").value*2
+ if(document.getElementById("zg").checked==true){
+ document.getElementById("wynik").innerHTML = "dowieziemy twoja pizze za darmo"
+ }
+ else if(document.getElementById("zg").checked==false){
+ document.getElementById("wynik").innerHTML = "dowoz bedzie cie kosztowal "+k+" zlotych"
+ }
+ }
+ </script>
+  </body>
+  </html>
