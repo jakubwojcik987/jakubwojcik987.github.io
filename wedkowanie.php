@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <title>Klub wędkowania</title>
-<link rel = "stylesheet" href = "styl2.css">
+<link rel = "stylesheet" href = "styl.css">
 </head>
 <body>
 <div id="baner">
