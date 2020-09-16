@@ -3,7 +3,7 @@ body{
 	margin:0;
 }
 #lewy, #prawy{
-	background-color: rgb(255,127,80);
+	background-color: rgb(102, 0, 102);
 	color:white;
 	width:50%;
 	height:410px;
@@ -15,7 +15,7 @@ body{
 	background-color: rgb(220,220,220);
 }
 #stopkaLewo, #stopkaPrawo{
-	background-color: rgb(255,127,80);
+	background-color: rgb(102, 0, 102);
 	color:white;
 	width:50%;
 	height:100px;
