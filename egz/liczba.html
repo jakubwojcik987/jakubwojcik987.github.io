@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>matematyka</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<section id="baner">
+<img src="baner.jpg" alt="baner"/>
+</section>
+<section id="lewy">
+<h2>MENU</h2>
+<a href="opis.html">opis</a><br>
+<a href="liczba.html">jaka to liczba?</a><br>
+<a href="liczby.html">liczby całkowite z zakresu</a>
+</section>
+<section id="prawy">
+<p id="wynik"></p>
+<script>
+do {
+password = prompt("Podaj hasło:");
+} while (password != "liczba");
+var liczba = +prompt("Podaj liczbę całkowitą");
+if (liczba > 0) {
+document.getElementById("wynik").innerHTML = "Liczba "+ liczba +" jest dodatnia";
+}else if (liczba < 0) {
+document.getElementById("wynik").innerHTML = "Liczba "+ liczba +" jest ujemna";
+}else if (liczba == 0) {
+document.getElementById("wynik").innerHTML = "Liczba "+ liczba +" jest zerem";
+}
+</script>
+</section>
+</body>
+</html>

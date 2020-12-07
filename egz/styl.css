@@ -1,0 +1,22 @@
+body {
+	font-family: Arial;
+	font-size: 18px;
+}
+#lewy {
+	width: 39%;
+	float: left;
+	border: solid 1px;
+	height: 140px;
+	margin-left: 5px;
+}
+#prawy {
+	width: 60%;
+	float: left;
+	border-right: solid 1px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	height: 140px;
+}
+img {
+	width: 100%;
+}
